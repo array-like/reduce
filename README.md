@@ -4,12 +4,20 @@
 ArrayLike reducers for JavaScript.
 See [docs](https://array-like.github.io/reduce/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {shuffle} from '@randomized/random';
+import {_calloc} from '@array-like/alloc'
+import {iota} from '@array-like/fill';
+import {max} from '@array-like/reduce';
+import {increasing} from '@total-order/primitive';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+const calloc = _calloc(Int32Array);
+const n = 100;
+const a = calloc(n);
+iota(a, 0, n, 0);
+shuffle(a, 0, n);
+max(increasing, a, 0, n); // 99
+```
 
 [![License](https://img.shields.io/github/license/array-like/reduce.svg)](https://raw.githubusercontent.com/array-like/reduce/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/reduce.svg)](https://www.npmjs.org/package/@array-like/reduce)
