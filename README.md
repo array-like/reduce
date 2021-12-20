@@ -22,8 +22,7 @@ max(increasing, a, 0, n); // 99
 [![License](https://img.shields.io/github/license/array-like/reduce.svg)](https://raw.githubusercontent.com/array-like/reduce/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/reduce.svg)](https://www.npmjs.org/package/@array-like/reduce)
 [![Tests](https://img.shields.io/github/workflow/status/array-like/reduce/ci:test?event=push&label=tests)](https://github.com/array-like/reduce/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/array-like/reduce.svg)](https://david-dm.org/array-like/reduce)
-[![Dev dependencies](https://img.shields.io/david/dev/array-like/reduce.svg)](https://david-dm.org/array-like/reduce?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/array-like/reduce.svg)](https://github.com/array-like/reduce/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/array-like/reduce.svg)](https://github.com/array-like/reduce/issues)
 [![Downloads](https://img.shields.io/npm/dm/@array-like/reduce.svg)](https://www.npmjs.org/package/@array-like/reduce)
 
