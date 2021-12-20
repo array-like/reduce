@@ -216,7 +216,8 @@
             "pascalCase": true
           }
         }
-      ]
+      ],
+      "unicorn/prefer-no-protocol": "off"
     },
     "overrides": [
       {
