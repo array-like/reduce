@@ -1,12 +1,12 @@
 import test from 'ava';
 
 import {_calloc} from '@array-like/alloc';
+import {contains} from '@functional-abstraction/operator';
+import {randint} from '@randomized/random';
 import {
 	increasing as _increasing,
 	decreasing as _decreasing,
 } from '@total-order/primitive';
-import {randint} from '@randomized/random';
-import {contains} from '@functional-abstraction/operator';
 
 import {min, max, argmin, argmax} from '#module';
 

@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {reduce} from '#module';
 
 const macro = (t, callable, array, init, expected) => {

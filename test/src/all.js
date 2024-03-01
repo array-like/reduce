@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {all} from '#module';
 
 const macro = (t, array, expected) => {
