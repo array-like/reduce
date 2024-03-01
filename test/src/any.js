@@ -1,5 +1,5 @@
 import test from 'ava';
-import {any} from '../../src/index.js';
+import {any} from '#module';
 
 const macro = (t, array, expected) => {
 	t.is(any(array, 0, array.length), expected);

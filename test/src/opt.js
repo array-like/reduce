@@ -8,7 +8,7 @@ import {
 import {randint} from '@randomized/random';
 import {contains} from '@functional-abstraction/operator';
 
-import {min, max, argmin, argmax} from '../../src/index.js';
+import {min, max, argmin, argmax} from '#module';
 
 const macro = (t, type, compare) => {
 	const calloc = _calloc(type);

@@ -1,5 +1,5 @@
 import test from 'ava';
-import {sum} from '../../src/index.js';
+import {sum} from '#module';
 
 const macro = (t, array, expected) => {
 	t.is(sum(array, 0, array.length), expected);

@@ -1,5 +1,5 @@
 import test from 'ava';
-import {reduce} from '../../src/index.js';
+import {reduce} from '#module';
 
 const macro = (t, callable, array, init, expected) => {
 	t.is(reduce(callable, array, 0, array.length, init), expected);
